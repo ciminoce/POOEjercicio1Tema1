@@ -37,9 +37,9 @@ namespace POOEjercicio1Tema1.Entidades
         {
             StringBuilder sb= new StringBuilder();
             sb.AppendLine($"Pirámide Cuadrada");
-            sb.AppendLine($"Lado base: {GetLado()}");
-            sb.AppendLine($"Altura...: {GetAltura()}");
-            sb.AppendLine($"Arista...: {GetArista():N}");
+            sb.AppendLine($"Lado base.: {GetLado()}");
+            sb.AppendLine($"Altura....: {GetAltura()}");
+            sb.AppendLine($"Arista....: {GetArista():N}");
             sb.AppendLine($"Superficie: {GetArea():N}");
             sb.AppendLine($"Volumen...: {GetVolumen():N}");
             return sb.ToString();

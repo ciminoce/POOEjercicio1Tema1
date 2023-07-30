@@ -49,9 +49,9 @@ namespace POOEjercicio1Tema1.Testing
             int altura = 10;
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Pirámide Cuadrada");
-            sb.AppendLine($"Lado base: 10");
-            sb.AppendLine($"Altura...: 10");
-            sb.AppendLine($"Arista...: 12,25");
+            sb.AppendLine($"Lado base.: 10");
+            sb.AppendLine($"Altura....: 10");
+            sb.AppendLine($"Arista....: 12,25");
             sb.AppendLine($"Superficie: 323,61");
             sb.AppendLine($"Volumen...: 333,33");
             PiramideCuadrada pc = new PiramideCuadrada(lado, altura);
